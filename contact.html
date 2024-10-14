@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__page-title">Contact</h1>
+
+    <ul class="menu">
+            <li><a href="./assignment1.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html" >Contact</a></li>
+    </ul>
+    </header>
+    <section class="main-content">
+        <main class="main">
+            <div>
+                <form action="mailto:someone@gmail.com" enctype="text/plain" method="post" class="user__form">
+                <fieldset>
+                    <h3 class="over">Please write your details</h3>
+                    <div class="name-container">
+                    <label for="user-name"></label>
+                    <input type="text" name="user-name" id="user-name" class="name-input" placeholder="Name" required>
+                    
+                    <label for="user-surname"></label>
+                    <input type="text" name="user-surname" id="user-surname" class="surname-input" placeholder="Surname" required>
+                    
+                    <label for="user-email"></label>
+                    <input type="text" name="user-email" id="user-email" class="email-input" placeholder="Enter your e-mail adres" required>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Your message </legend>
+                    <label for="user-message"></label>
+                    <textarea id="user-message" name="user-message" class="user__message" placeholder="Enter your message" required></textarea>
+                </fieldset>
+                <button>Send</button>
+
+                </form>
+
+                <div class="image-grid">
+                    <div class="image-container">
+                        <a href="./assignment1.html">
+                    <img src="./images/Barber 2000.jpg" alt="Image 1" width="100%" height="auto">
+                </a>
+                </div>
+                    <div class="image-container">
+                        <a href="./assignment1.html">
+                    <img src="./images/barberare.jpeg.jpg" alt="Image 2" width="100%" height="auto">
+                </a>
+                </div>
+                    <div class="image-container">
+                        <a href="./assignment1.html">
+                    <img src="./images/barber 333.jpg" alt="Image 3" width="100%" height="auto">
+                </a>
+                </div>
+                    <div class="image-container">
+                        <a href="./assignment1.html">
+                    <img src="./images/Rak.jpg" alt="Image 4" width="100%" height="auto">
+                </a>
+                </div>
+                </div>
+
+            </div>
+            
+
+        </main>
+
+    </section>
+
+    <footer class="footer">
+        Copyright @andre 2024
+    </footer>
+    
+</body>
+
+</html>
